@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0b0b">
+    <meta name="description" content="Druk 3D na zamówienie: prototypy, części użytkowe i oryginalne przedmioty. Z Hornik Studio zamienisz swój pomysł w rzeczywistość — warstwa po warstwie.">
+    <meta property="og:title" content="Hornik Studio — Druk 3D na zamówienie">
+    <meta property="og:description" content="Druk 3D na nowo. Od pomysłu do przedmiotu, który możesz wziąć do ręki.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <title>Hornik Studio — Druk 3D na zamówienie</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="images/hero.webp" as="image" fetchpriority="high">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <header class="header">
+      <div class="header__inner container">
+        <a class="brand header__logo" href="#home" aria-label="Hornik Studio — strona główna"><img class="brand__symbol" src="images/logo.webp" width="144" height="144" alt="" decoding="async"><span class="brand__name">HORNIK <span class="brand__light">STUDIO</span></span></a>
+        <button class="header__toggle" type="button" aria-expanded="false" aria-controls="main-navigation" hidden>Menu <span aria-hidden="true">＋</span></button>
+        <nav class="menu" id="main-navigation" aria-label="Nawigacja główna">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a class="menu__list-link" href="#home" aria-current="location">Strona główna</a>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#services">Usługi</a>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#works">Realizacje</a>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#about">O nas</a>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="main-screen" id="home" aria-labelledby="hero-title">
+        <div class="main-screen__inner container">
+          <div class="main-screen__copy">
+            <p class="eyebrow main-screen__eyebrow">Pomysł <span aria-hidden="true">⟶</span> Warstwy <span aria-hidden="true">⟶</span> Rzeczywistość</p>
+            <h1 class="main-screen__title" id="hero-title">Druk 3D.<br><span class="copper-text">Na nowo.</span></h1>
+            <p class="main-screen__sub-title">Druk 3D na zamówienie — od prototypów i części użytkowych po niepowtarzalne przedmioty. Pomagamy zamieniać pomysły w rzeczywistość, warstwa po warstwie.</p>
+            <div class="main-screen__actions">
+              <a class="button button--primary" href="#contact">Rozpocznij projekt <span aria-hidden="true">→</span></a>
+              <a class="button button--outline" href="#works">Zobacz realizacje</a>
+            </div>
+          </div>
+          <!-- Future Three.js mount: keep the static image as an accessible fallback. -->
+          <div class="main-screen__visual" data-scene="hero" role="img" aria-label="Abstrakcyjna, warstwowa rzeźba w odcieniach brązu na ciemnym, okrągłym postumencie">
+            <img class="main-screen__img" src="images/hero.webp" width="1448" height="1086" alt="" fetchpriority="high">
+            <span class="main-screen__glow" aria-hidden="true"></span>
+            <div class="main-screen__canvas-mount" data-three-mount aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="main-screen__highlights container" aria-label="Nasze specjalizacje">
+          <a class="highlight" href="#services"><span class="highlight__icon" aria-hidden="true">◇</span><span><strong>Prototypy</strong><small>Testuj. Ulepszaj. Dopracuj.</small></span></a>
+          <a class="highlight" href="#services"><span class="highlight__icon" aria-hidden="true">⚙</span><span><strong>Części użytkowe</strong><small>Trwałe. Precyzyjne. Niezawodne.</small></span></a>
+          <a class="highlight" href="#services"><span class="highlight__icon highlight__icon--layers" aria-hidden="true">▱</span><span><strong>Kreatywne projekty</strong><small>Wyjątkowe formy. Bez ograniczeń.</small></span></a>
+        </div>
+      </section>
+      <section class="section services container" id="services" aria-labelledby="services-title">
+        <div class="section__heading" data-reveal>
+          <div>
+            <p class="eyebrow">01 / Czym się zajmujemy</p>
+            <h2 id="services-title">Jeden pomysł.<br><span class="text-muted">Mnóstwo możliwości.</span></h2></div>
+          <p class="section__intro">Praktyczne rozwiązanie, pierwszy prototyp, a może coś zupełnie wyjątkowego? Nadajmy temu kształt.</p>
+        </div>
+        <div class="services__inner">
+          <article class="services__item" data-reveal>
+            <div class="services__top"><span class="eyebrow">01 / Odkrywaj</span><span class="services__symbol" aria-hidden="true">◇</span></div>
+            <div class="services__visual services__visual--prototype" aria-hidden="true">
+              <div class="wire-cube"></div><span class="services__coordinate">X / Y / Z</span></div>
+            <h3>Prototypy</h3>
+            <p>Zamień szkic w przedmiot, który możesz wziąć do ręki. Sprawdź kształt i dopasowanie, a następnie dopracuj projekt.</p>
+            <a class="text-link" href="#contact">Sprawdźmy Twój pomysł <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="services__item" data-reveal>
+            <div class="services__top"><span class="eyebrow">02 / Rozwiązuj</span><span class="services__symbol" aria-hidden="true">⚙</span></div>
+            <div class="services__visual"><img src="images/drive-gear.webp" width="1200" height="1200" alt="Koło zębate z widocznymi warstwami druku 3D, przedstawiające część użytkową" loading="lazy" decoding="async"></div>
+            <h3>Części użytkowe</h3>
+            <p>Elementy dopasowane do konkretnych potrzeb: mocowania, części zamienne i praktyczne przedmioty wykonane według Twoich wymagań.</p>
+            <a class="text-link" href="#contact">Znajdź rozwiązanie <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="services__item" data-reveal>
+            <div class="services__top"><span class="eyebrow">03 / Twórz</span><span class="services__symbol" aria-hidden="true">▱</span></div>
+            <div class="services__visual services__visual--creative" aria-hidden="true">
+              <div class="layer-sculpture"></div><span class="services__coordinate">FORMA / WYRAZ</span></div>
+            <h3>Kreatywne projekty</h3>
+            <p>Odkryj nowe możliwości. Dekoracje, spersonalizowane prezenty i oryginalne przedmioty, które nadają wyobraźni realny kształt.</p>
+            <a class="text-link" href="#contact">Stwórz coś wyjątkowego <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+      <section class="section portfolio container" id="works" aria-labelledby="works-title">
+        <div class="section__heading" data-reveal>
+          <div>
+            <p class="eyebrow">02 / Od pomysłu do przedmiotu</p>
+            <h2 id="works-title">Wybrane <span class="copper-text">projekty.</span></h2></div>
+          <p class="section__intro">Zobacz, jakie możliwości daje druk 3D.<br>Wizualizacje koncepcyjne — wkrótce pokażemy prawdziwe realizacje.</p></div>
+        <!-- Portfolio entries are semantic, CMS-ready records. Replace images, titles, categories and alt text together. -->
+        <div class="portfolio__inner">
+          <figure class="portfolio__item portfolio__item--wide" data-project="scale-model" data-reveal>
+            <div class="portfolio__image-wrap"><img src="images/scale-model.webp" width="1200" height="1200" alt="Koncepcyjny srebrny model samochodu na ciemnym tle" loading="lazy" decoding="async"><span class="portfolio__tag">Koncepcja / 01</span></div>
+            <figcaption class="portfolio__caption">
+              <h3>Forma w ruchu</h3><span>Prototypy / Model w skali</span>
+            </figcaption>
+          </figure>
+          <figure class="portfolio__item portfolio__item--offset" data-project="drive-gear" data-reveal>
+            <div class="portfolio__image-wrap"><img src="images/drive-gear.webp" width="1200" height="1200" alt="Zbliżenie cylindrycznego koła zębatego z widocznymi warstwami druku" loading="lazy" decoding="async"><span class="portfolio__tag">Koncepcja / 02</span></div>
+            <figcaption class="portfolio__caption">
+              <h3>Forma i funkcja</h3><span>Części użytkowe / Koło zębate</span>
+            </figcaption>
+          </figure>
+          <figure class="portfolio__item" data-project="bloom-ring" data-reveal>
+            <div class="portfolio__image-wrap"><img src="images/bloom-ring.webp" width="1200" height="1200" alt="Koncepcyjny zielony pierścionek z przestrzennymi pomarańczowymi kwiatami" loading="lazy" decoding="async"><span class="portfolio__tag">Koncepcja / 03</span></div>
+            <figcaption class="portfolio__caption">
+              <h3>Kwiat w nowej odsłonie</h3><span>Kreatywne projekty / Biżuteria koncepcyjna</span>
+            </figcaption>
+          </figure>
+          <figure class="portfolio__item portfolio__item--wide portfolio__item--last" data-project="gear-study" data-reveal>
+            <div class="portfolio__image-wrap"><img src="images/gear-study.webp" width="1200" height="1200" alt="Studium zazębiających się elementów wykonanych z ciemnego materiału" loading="lazy" decoding="async"><span class="portfolio__tag">Koncepcja / 04</span></div>
+            <figcaption class="portfolio__caption">
+              <h3>Liczy się każdy detal</h3><span>Części użytkowe / Studium formy</span>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="portfolio__closing" data-reveal>Następny może być Twój projekt. <a class="text-link" href="#contact">Porozmawiajmy <span aria-hidden="true">↗</span></a></p>
+      </section>
+      <section class="process section" id="process" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section__heading" data-reveal>
+            <div>
+              <p class="eyebrow">03 / Jak to działa</p>
+              <h2 id="process-title">Od pomysłu.<br><span class="text-muted">Do gotowego przedmiotu.</span></h2></div>
+            <p class="section__intro">Przejrzysty proces współpracy, krok po kroku.</p></div>
+          <ol class="process__steps">
+            <li class="step" data-reveal>
+              <div class="step__top"><span class="step__number">01</span><span class="step__icon" aria-hidden="true">↗</span></div>
+              <h3>Opowiedz o pomyśle</h3>
+              <p>Masz szkic, plik 3D albo dopiero pomysł? Opowiedz nam, czego potrzebujesz i jaką funkcję ma pełnić przedmiot.</p>
+            </li>
+            <li class="step" data-reveal>
+              <div class="step__top"><span class="step__number">02</span><span class="step__icon" aria-hidden="true">⌖</span></div>
+              <h3>Projekt i przygotowanie</h3>
+              <p>Wspólnie ustalamy szczegóły i przygotowujemy projekt do druku, dbając o jego funkcjonalność.</p>
+            </li>
+            <li class="step" data-reveal>
+              <div class="step__top"><span class="step__number">03</span><span class="step__icon" aria-hidden="true">▱</span></div>
+              <h3>Druk 3D</h3>
+              <p>Twój pomysł nabiera kształtu, warstwa po warstwie. Dbamy o formę, funkcję i jakość wykonania.</p>
+            </li>
+            <li class="step" data-reveal>
+              <div class="step__top"><span class="step__number">04</span><span class="step__icon" aria-hidden="true">◇</span></div>
+              <h3>Gotowy produkt</h3>
+              <p>Sprawdzamy gotowy przedmiot pod kątem ustaleń projektowych i przygotowujemy go do odbioru.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="about section container" id="about" aria-labelledby="about-title">
+        <div class="about__art" aria-hidden="true" data-reveal>
+          <div class="about__orbit"></div>
+          <div class="about__orbit about__orbit--inner"></div><span class="about__monogram">H<span>.</span></span><span class="about__art-label eyebrow">Tworzymy z myślą o Tobie</span></div>
+        <div class="about__copy" data-reveal>
+          <p class="eyebrow">04 / O Hornik Studio</p>
+          <h2 id="about-title">Indywidualne podejście.<br><span class="copper-text">Precyzja w każdym detalu.</span></h2>
+          <p>Hornik Studio to miejsce, w którym pomysły stają się rzeczywistością. Do każdego projektu podchodzimy indywidualnie — zaczynamy od Twoich potrzeb, nie od gotowych schematów.</p>
+          <p>Druk 3D traktujemy jako praktyczne narzędzie do rozwiązywania problemów i odkrywania nowych możliwości. Niezależnie od tego, czy chodzi o drobny element użytkowy, czy oryginalną formę, liczy się każda warstwa.</p><a class="text-link" href="#contact">Opowiedz nam o swoim pomyśle <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <section class="contacts section" id="contact" aria-labelledby="contact-title">
+        <div class="contacts__inner container">
+          <div class="contacts__copy" data-reveal>
+            <p class="eyebrow">05 / Zacznijmy współpracę</p>
+            <h2 id="contact-title">Masz pomysł?<br>Zamieńmy go <br><span class="copper-text">w rzeczywistość.</span></h2>
+            <p>Duży czy mały, dopracowany czy dopiero naszkicowany — każdy projekt zaczyna się od rozmowy. Opowiedz nam o swoim.</p><span class="contacts__decoration" aria-hidden="true">↗</span></div>
+          <form class="form" aria-labelledby="form-title" aria-describedby="form-note" data-project-form data-reveal>
+            <h3 class="form__title" id="form-title">Twój projekt zaczyna się tutaj.</h3>
+            <div class="form__field"><label for="project-name">Imię <span aria-hidden="true">*</span></label><input id="project-name" name="name" type="text" autocomplete="name" placeholder="Twoje imię" required maxlength="120"></div>
+            <div class="form__field"><label for="project-email">Adres e-mail <span aria-hidden="true">*</span></label><input id="project-email" name="email" type="email" autocomplete="email" placeholder="twoj@email.pl" required maxlength="254"></div>
+            <div class="form__field"><label for="project-description">Opis projektu <span aria-hidden="true">*</span></label><textarea id="project-description" name="description" rows="4" placeholder="Co chcesz stworzyć?" required maxlength="5000"></textarea></div>
+            <p class="form__note" id="form-note">To tylko podgląd formularza. Wysyłanie nie jest jeszcze dostępne, a wpisane dane nie zostaną przesłane ani zapisane.</p>
+            <button class="button button--primary form__submit" type="button" aria-describedby="form-note" disabled>Wyślij wiadomość <span aria-hidden="true">↗</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__inner">
+        <div><a class="brand footer__logo" href="#home"><img class="brand__symbol" src="images/logo.webp" width="144" height="144" alt="" decoding="async" loading="lazy"><span class="brand__name">HORNIK <span class="brand__light">STUDIO</span></span></a>
+          <p class="footer__tagline">Pomysł. Warstwy. Rzeczywistość.</p></div>
+        <nav class="footer__nav" aria-label="Nawigacja w stopce"><a href="#services">Usługi</a><a href="#works">Wybrane realizacje</a><a href="#process">Jak to działa</a><a href="#about">O nas</a><a href="#contact">Kontakt</a>
+        </nav>
+        <div class="footer__contact" data-contact-details><span class="eyebrow">Bądźmy w kontakcie</span>
+          <p>Dane kontaktowe pojawią się wkrótce.</p>
+          <p>Linki do mediów społecznościowych pojawią się wkrótce.</p></div></div>
+      <div class="footer__bottom"><small>© <span data-year>2026</span> Hornik Studio</small><span>Druk 3D na zamówienie. Z myślą o Tobie.</span><a href="#home">Wróć na górę ↑</a></div>
+    </footer>
+  </body>
+</html>
